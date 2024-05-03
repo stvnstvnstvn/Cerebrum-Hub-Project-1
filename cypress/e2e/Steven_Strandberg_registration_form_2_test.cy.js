@@ -221,7 +221,7 @@ describe('Section 2: Visual tests', () => {
     })
 
     // Create test similar to previous one
-    it.only('Check that the dropdown of favorite animals is correct', () => {
+    it('Check that the dropdown of favorite animals is correct', () => {
         cy.get('#animal').select(1).screenshot('animal drop-down')
         cy.screenshot('Full page screenshot')
         cy.get('#animal').children().should('have.length', 6)
