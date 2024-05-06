@@ -63,7 +63,7 @@ describe('Input fields', () => {
         cy.get('.submit_button').should('not.be.enabled');
     })
 
-    it.only('BMW should not be listed in the list of the cars', () => {
+    it('BMW should not be listed in the list of the cars', () => {
         
         // Check list size is 4
         cy.get('#cars').children().should('have.length', 4)

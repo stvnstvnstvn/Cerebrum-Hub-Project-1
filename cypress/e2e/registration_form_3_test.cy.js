@@ -16,6 +16,7 @@ Task list:
  */
 
 
+
 /*
 BONUS TASK: add functional tests for registration form 3
 Task list:
