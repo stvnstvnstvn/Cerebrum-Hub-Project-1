@@ -179,7 +179,7 @@ import { faker } from '@faker-js/faker';
 //Testin variables with faker js
 */
 describe('Form Filling Test', () => {
-  it.only('All fields are filled in with faker', () => {
+  it('All fields are filled in with faker', () => {
     const userName = faker.internet.userName();
     const randomEmail = faker.internet.email();
     const randomName = faker.name.firstName();
